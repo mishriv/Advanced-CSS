@@ -1,0 +1,12 @@
+Problem Statement
+Explain the purpose of using the var() function in css-
+
+The var() function in CSS is a tool that enables us to access and utilize the values of custom properties, also known as CSS variables, within our style sheets. These CSS variables are defined by prefixing a variable name with "--" They provide a way to store and recycle values throughout our style sheets, which simplifies maintenance and facilitates global adjustments.
+
+Key Uses of the var() Function:
+
+1. Reusability: CSS variables empower us to store values that we can utilize repeatedly in our style sheets. The var() function allows us to refer to these values wherever necessary, reducing repetition and enhancing the cleanliness of our code.
+
+2. Consistency: By employing variables, we can ensure uniform values for elements like colors, spacing, fonts, and more across our entire design. Modifying a variable's value will instantly update all instances where that variable is utilized.
+
+3. Global Changes: In situations where design adjustments are required, we can modify the value of a variable just once, and the alteration will be automatically applied to all instances that rely on that variable. This streamlines the process of making comprehensive design modifications.
